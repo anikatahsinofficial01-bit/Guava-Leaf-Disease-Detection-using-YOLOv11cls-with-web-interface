@@ -6,6 +6,19 @@ Our goal is to empower farmers and agricultural professionals with a **smart, ac
 ## 🎥 Project Demo
 [Watch The Project Demo Video](https://github.com/anikatahsinofficial01-bit/Guava-Leaf-Disease-Detection-using-YOLOv11cls-with-web-interface/blob/main/Disease%20Detection%20Video.mp4)
 
+## 📊 Model Performance Summary
+
+| Model | Test Accuracy | Precision | Recall | F1-Score | MCC |
+|:------|:--------------:|:----------:|:--------:|:----------:|:----:|
+| **YOLOv11** | **97.78%** | 95% | 94% | 95% | 0.937 |
+| **DenseNet201** | 92.74% | 93% | 92% | 93% | 0.903 |
+| **ShuffleNetV2** | 91.4% | 95% | 97% | 96% | 0.914 |
+| **EfficientNetB3** | 92.4% | 90% | 99% | 94% | 0.963 |
+| **ResNeSt26d** | 96.3% | 95% | 98% | 96% | 0.963 |
+| **VGG19** | 85.06% | 87% | 83% | 85% | 0.799 |
+
+> **YOLOv11** achieved the best real-time detection accuracy, while **ResNeSt-26d** and **DenseNet201** delivered the highest balanced classification performance.
+
 ## 🧠 Key Features
 
 - **Automated Disease Detection:** Classifies leaves into *Healthy*, *Algal Leaf Spot*, *Powdery Mildew*, and *Insect Damage*.
